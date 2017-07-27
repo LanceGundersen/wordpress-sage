@@ -10,8 +10,8 @@ RUN docker-php-ext-install mysqli mbstring
 
 VOLUME /var/www/html
 
-ENV WORDPRESS_VERSION 4.8
-ENV WORDPRESS_UPSTREAM_VERSION 4.8
+ENV WORDPRESS_VERSION 4.2.1
+ENV WORDPRESS_UPSTREAM_VERSION 4.2.1
 ENV WORDPRESS_SHA1 c93a39be9911591b19a94743014be3585df0512f
 
 # upstream tarballs include ./wordpress/ so this gives us /usr/src/wordpress
